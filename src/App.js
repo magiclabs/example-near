@@ -4,7 +4,7 @@ import { Magic } from "magic-sdk";
 import { NearExtension } from "@magic-ext/near";
 import { transactions, utils } from 'near-api-js'
 
-const magic = new Magic('pk_test_E52D701487E9A4DA', {
+const magic = new Magic('pk_live_96C05F8F912A6025', {
     extensions: [
         new NearExtension({
             rpcUrl: '',
